@@ -186,7 +186,7 @@ namespace GetTaoBaoCommodity
 
                     //找到页面上的用户名和密码框 输入
                     webDriver.FindElement(By.Id("fm-login-id")).SendKeys("9458*****@qq.com");
-                    webDriver.FindElement(By.Id("fm-login-password")).SendKeys("wu15***********");
+                    webDriver.FindElement(By.Id("fm-login-password")).SendKeys("**15***********");
 
                     //窗口最大化
                     webDriver.Manage().Window.Maximize();
